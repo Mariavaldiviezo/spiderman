@@ -1,0 +1,68 @@
+.card_2 {
+  width: 1%;
+  height: 81%;
+  top: 0%;
+  left: 74%;
+  animation: spiderweb 12s linear forwards;
+}
+
+@keyframes spiderweb {
+  0% {
+    top: -85%;
+  }
+
+  80% {
+    opacity: 1;
+  }
+  83.3% {
+    top: 0%;
+  }
+
+  100% {
+    opacity: 0;
+  }
+}
+
+.card_3 {
+  width: 13%;
+  height: 58%;
+  top: -36%;
+  left: 69%;
+  animation: spider 12s linear forwards;
+}
+
+@keyframes spider {
+  0% {
+    top: -36%;
+  }
+  90% {
+    opacity: 1;
+  }
+  83.3% {
+    top: 49%;
+  }
+
+  100% {
+    top: 49%;
+    opacity: 0;
+  }
+}
+
+.card_1 {
+  width: 21%;
+  height: 39%;
+  top: 60%;
+  left: 57%;
+  animation: peter 12s linear forwards;
+}
+
+@keyframes peter {
+  90% {
+    opacity: 1;
+  }
+
+  100% {
+    top: 60%;
+    opacity: 0;
+  }
+}
